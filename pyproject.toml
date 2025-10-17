@@ -1,7 +1,16 @@
 [project]
-name = "tirocinio"
+name = "anomalydet_internship"
 version = "0.1.0"
-description = "Add your description here"
+description = "This is my internship project that will be used also for my thesis"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.0.1",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.1",
+]
